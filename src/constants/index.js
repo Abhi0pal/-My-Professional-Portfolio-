@@ -23,7 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    
   } from "../assets";
+  import newImage1 from "../assets/students.png";
+  import newImage2 from "../assets/finance.png";
+  import newImage3 from "../assets/Meta.png";
   
   export const navLinks = [
     {
@@ -44,20 +48,29 @@ import {
     {
       title: "Web Developer",
       icon: web,
+      description: "Building responsive and modern websites with a focus on performance.",
+      technologies: "HTML, CSS, JavaScript, React, Node.js",
     },
     {
-      title: "React Native Developer",
+      title: "Java Developer",
       icon: mobile,
+      description: "Creating robust and scalable applications using Java and its frameworks.",
+      technologies: "Java, Spring Boot, Hibernate",
     },
     {
-      title: "Backend Developer",
+      title: "UI/UX Developer",
       icon: backend,
+      description: "Designing intuitive and user-friendly interfaces with seamless experiences.",
+      technologies: "Figma, Adobe XD, HTML, CSS, JavaScript, React",
     },
     {
-      title: "Content Creator",
+      title: "Research Scholar",
       icon: creator,
+      description: "Conducting research in AI, ML, and software development for cutting-edge technologies.",
+      technologies: "Python, AI, ML, Data Science, TensorFlow",
     },
   ];
+  
   
   const technologies = [
     {
@@ -116,150 +129,152 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Hackathons & Competitions",
+      company_name: "Smart India Hackathon, ISRO Hackathons, Top 10 Project",
+      icon: starbucks,  // Add the appropriate icon for Hackathons
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participated in various prestigious hackathons, achieving Top 10 Project in College, Smart India Hackathon Runner-Up, and ISRO Hackathons.",
+        "Developed innovative solutions under time constraints, demonstrating problem-solving skills and ability to deliver high-quality work.",
+        "Smart India Hackathon Runner-Up: Achieving a runner-up position shows your ability to create impactful solutions with practical applications.",
+        "ISRO Hackathons: Your participation in ISRO-related hackathons suggests a deep understanding of technology, space, or scientific domains, reflecting technical and innovative capabilities.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Research & Scholarly Work",
+      company_name: "Scopus-Indexed & Google Scholar-Verified Publications",
+      icon: starbucks,  // Add the appropriate icon for Research
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Published  Scopus-indexed  and  Google Scholar-verified papers  in the fields of  AI ,  ML , and advanced technical domains.",
+        "Demonstrated expertise in  applied research , contributing valuable insights to the academic and tech communities.",
+        "Worked on  cutting-edge technologies , researching and developing new solutions that impact real-world problems.",
+        "Presented research findings at global academic conferences, sharing knowledge with leading professionals in the field.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Technical Skills & Projects",
+      company_name: "Personal Projects & Collaboration",
+      icon: starbucks,  // Add the appropriate icon for Tech Skills
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Expertise in programming languages including  C++ ,  Java ,  JavaScript , and strong knowledge of  Data Structures & Algorithms (DSA) .",
+        "Developed  efficient software solutions  with a focus on scalability, architecture, and performance optimization.",
+        "Created dynamic, user-friendly websites and applications, combining  UI/UX principles  with modern web development technologies.",
+        "Worked on a range of technical projects, showcasing problem-solving abilities and knowledge of both front-end and back-end development.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Team Collaboration & Leadership",
+      company_name: "Hackathons & Freelance Projects",
+      icon: starbucks,  // Add the appropriate icon for Teamwork
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Demonstrated leadership and collaboration skills through hackathons and team projects.",
+        "Led and worked with cross-disciplinary teams, including developers, designers, and product managers.",
+        "Showcased  strong teamwork  under pressure, solving complex problems in a collaborative environment.",
+        "Developed communication and leadership skills by driving projects to completion under tight deadlines.",
       ],
     },
   ];
+  
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Abhishek Pal",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Abhishek was an absolute pleasure. Their technical expertise and problem-solving approach were instrumental in bringing our project to life. Truly a professional with a creative edge!",
+      name: "Aakriti Shory",
+      designation: "Researcher",
+      company: "IEEE ",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQEb0U5B52NOSA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713437124974?e=1741219200&v=beta&t=Jg-LIqha_nX2vhqv_sT7MRayi2E7JLcPsvp2W1ftBKQ",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Abhishek has an unmatched ability to break down complex challenges and deliver innovative solutions. Their dedication and collaborative spirit make them a standout developer.",
+      name: "Adarsh Gaur",
+      designation: "Student",
+      company: "Chitkara University",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQEfYL2fedUnNA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696049675481?e=1741219200&v=beta&t=UYRXABGVHjTe0lkkBC_vTEKsgQ0ywtOR26_dIhYk2AI",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I was blown away by Abhi's work ethic and technical acumen. They turned our vision into reality with precision and creativity. A true asset to any team!",
+      name: "Abhishek",
+      designation: "Student",
+      company: "Chitkara University",
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQH2PfGxfoh8zw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714407017903?e=1741219200&v=beta&t=RuP6K_45ragZjKXT4KSob9v0pdCOBdIII0aqvD9SnHI",
     },
   ];
+  
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Student Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A comprehensive platform for managing student information, courses, and performance. Designed to streamline administrative tasks for educational institutions.This is Real based face System and impactful",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: newImage1, // Keeping the 'carrent' image as placeholder
+      source_code_link: "https://github.com/Abhi0pal/Student-Result-Management",
     },
     {
-      name: "Job It",
+      name: "AI-Driven Business Finance Platform",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An intelligent AI-powered platform that analyzes financial data, predicts trends, and delivers actionable insights to help businesses optimize their financial strategies.Manage your finance efficiently.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "machine learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "data visualization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:  newImage2, // Keeping the 'jobit' image as placeholder
+      source_code_link: "https://github.com/",
+    },    
+    {
+      name: "Meta Manager",
+      description:
+        "A SCRUM management platform inspired by Collaborations, offering enhanced visibility into projects at any stage. Features include issue tracking, JQL-based filtering, streamlined task and story creation, and drag-and-drop sprint planning for efficient backlog management.the central hub for the coding, collaboration, and release stages",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "typescript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: newImage3, // Keeping the 'tripguide' image as placeholder
+      source_code_link: "https://github.com/AakritiShory/Meta",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
+    
+  ];  
   export { services, technologies, experiences, testimonials, projects };
